@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179712A96A0FCB4B6B58C042 /* Pods_MyWPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA1B0964EED824A59130F60 /* Pods_MyWPS.framework */; };
+		3396389E335387A74C2B26A2 /* Pods_MyWPSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1126CCC41173F381DDA63022 /* Pods_MyWPSTests.framework */; };
 		6A81063126CCA78C0018A974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81063026CCA78C0018A974 /* AppDelegate.swift */; };
 		6A81063326CCA78C0018A974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81063226CCA78C0018A974 /* SceneDelegate.swift */; };
 		6A81063526CCA78C0018A974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81063426CCA78C0018A974 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		6A81063D26CCA78D0018A974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A81063B26CCA78D0018A974 /* LaunchScreen.storyboard */; };
 		6A81064826CCA78D0018A974 /* MyWPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81064726CCA78D0018A974 /* MyWPSTests.swift */; };
 		6A81065326CCA78D0018A974 /* MyWPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A81065226CCA78D0018A974 /* MyWPSUITests.swift */; };
+		CA0C3EE56DAE7F8A59D7EA62 /* Pods_MyWPS_MyWPSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886CD74B4E64389BC6B6A7CF /* Pods_MyWPS_MyWPSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05184BBD52C3C1A4445656D9 /* Pods-MyWPS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPS.release.xcconfig"; path = "Target Support Files/Pods-MyWPS/Pods-MyWPS.release.xcconfig"; sourceTree = "<group>"; };
+		0CA1B0964EED824A59130F60 /* Pods_MyWPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1126CCC41173F381DDA63022 /* Pods_MyWPSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWPSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FAC36389C29DCE9C4CADB1 /* Pods-MyWPSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPSTests.release.xcconfig"; path = "Target Support Files/Pods-MyWPSTests/Pods-MyWPSTests.release.xcconfig"; sourceTree = "<group>"; };
+		678A0E12B045B618AB54E7B3 /* Pods-MyWPSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPSTests.debug.xcconfig"; path = "Target Support Files/Pods-MyWPSTests/Pods-MyWPSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A81062D26CCA78C0018A974 /* MyWPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A81063026CCA78C0018A974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A81063226CCA78C0018A974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		6A81064E26CCA78D0018A974 /* MyWPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A81065226CCA78D0018A974 /* MyWPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWPSUITests.swift; sourceTree = "<group>"; };
 		6A81065426CCA78D0018A974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886CD74B4E64389BC6B6A7CF /* Pods_MyWPS_MyWPSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWPS_MyWPSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986DBCD091917FFAD5C35458 /* Pods-MyWPS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPS.debug.xcconfig"; path = "Target Support Files/Pods-MyWPS/Pods-MyWPS.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1A9D2EFBFCA6C28CCF630F /* Pods-MyWPS-MyWPSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPS-MyWPSUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyWPS-MyWPSUITests/Pods-MyWPS-MyWPSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA5A8A7E9964B25CE74E23B /* Pods-MyWPS-MyWPSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWPS-MyWPSUITests.release.xcconfig"; path = "Target Support Files/Pods-MyWPS-MyWPSUITests/Pods-MyWPS-MyWPSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179712A96A0FCB4B6B58C042 /* Pods_MyWPS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3396389E335387A74C2B26A2 /* Pods_MyWPSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0C3EE56DAE7F8A59D7EA62 /* Pods_MyWPS_MyWPSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				6A81064626CCA78D0018A974 /* MyWPSTests */,
 				6A81065126CCA78D0018A974 /* MyWPSUITests */,
 				6A81062E26CCA78C0018A974 /* Products */,
+				9E40728EBFEB86100C79615E /* Pods */,
+				C31A89CB20895C83ABB21D39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = MyWPSUITests;
 			sourceTree = "<group>";
 		};
+		9E40728EBFEB86100C79615E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986DBCD091917FFAD5C35458 /* Pods-MyWPS.debug.xcconfig */,
+				05184BBD52C3C1A4445656D9 /* Pods-MyWPS.release.xcconfig */,
+				9E1A9D2EFBFCA6C28CCF630F /* Pods-MyWPS-MyWPSUITests.debug.xcconfig */,
+				CFA5A8A7E9964B25CE74E23B /* Pods-MyWPS-MyWPSUITests.release.xcconfig */,
+				678A0E12B045B618AB54E7B3 /* Pods-MyWPSTests.debug.xcconfig */,
+				19FAC36389C29DCE9C4CADB1 /* Pods-MyWPSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C31A89CB20895C83ABB21D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA1B0964EED824A59130F60 /* Pods_MyWPS.framework */,
+				886CD74B4E64389BC6B6A7CF /* Pods_MyWPS_MyWPSUITests.framework */,
+				1126CCC41173F381DDA63022 /* Pods_MyWPSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A81065726CCA78D0018A974 /* Build configuration list for PBXNativeTarget "MyWPS" */;
 			buildPhases = (
+				DBEE3B94BC41BA498B6A3A3C /* [CP] Check Pods Manifest.lock */,
 				6A81062926CCA78C0018A974 /* Sources */,
 				6A81062A26CCA78C0018A974 /* Frameworks */,
 				6A81062B26CCA78C0018A974 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A81065A26CCA78D0018A974 /* Build configuration list for PBXNativeTarget "MyWPSTests" */;
 			buildPhases = (
+				FB96B4B9969182DFDA32BCDD /* [CP] Check Pods Manifest.lock */,
 				6A81063F26CCA78D0018A974 /* Sources */,
 				6A81064026CCA78D0018A974 /* Frameworks */,
 				6A81064126CCA78D0018A974 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A81065D26CCA78D0018A974 /* Build configuration list for PBXNativeTarget "MyWPSUITests" */;
 			buildPhases = (
+				9A03A0EF363E30D58F659790 /* [CP] Check Pods Manifest.lock */,
 				6A81064A26CCA78D0018A974 /* Sources */,
 				6A81064B26CCA78D0018A974 /* Frameworks */,
 				6A81064C26CCA78D0018A974 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A03A0EF363E30D58F659790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWPS-MyWPSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEE3B94BC41BA498B6A3A3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWPS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB96B4B9969182DFDA32BCDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWPSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A81062926CCA78C0018A974 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		6A81065826CCA78D0018A974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986DBCD091917FFAD5C35458 /* Pods-MyWPS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +567,7 @@
 		};
 		6A81065926CCA78D0018A974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05184BBD52C3C1A4445656D9 /* Pods-MyWPS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +588,7 @@
 		};
 		6A81065B26CCA78D0018A974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678A0E12B045B618AB54E7B3 /* Pods-MyWPSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +611,7 @@
 		};
 		6A81065C26CCA78D0018A974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FAC36389C29DCE9C4CADB1 /* Pods-MyWPSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +634,7 @@
 		};
 		6A81065E26CCA78D0018A974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1A9D2EFBFCA6C28CCF630F /* Pods-MyWPS-MyWPSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +655,7 @@
 		};
 		6A81065F26CCA78D0018A974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA5A8A7E9964B25CE74E23B /* Pods-MyWPS-MyWPSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

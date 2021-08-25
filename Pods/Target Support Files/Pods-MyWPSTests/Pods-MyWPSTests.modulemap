@@ -1,0 +1,6 @@
+framework module Pods_MyWPSTests {
+  umbrella header "Pods-MyWPSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
